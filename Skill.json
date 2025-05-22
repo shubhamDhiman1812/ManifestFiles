@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.botframework.com/schemas/skill-manifest-2.1.json",
+  "name": "Engineering Chatbot - FisherFlash",
+  "description": "My Azure Bot Service Bot",
+  "publisherName": "Emerson",
+  "version": "1.0",
+  "privacyUrl": "https://www.emerson.com/privacy",
+  "termsOfUseUrl": "https://www.emerson.com/terms",
+  "endpoint": {
+    "protocol": "BotFrameworkV3",
+    "url": "https://engineeringchatbot-fisherflash.azurewebsites.net/api/messages",
+    "msAppId": "bbebcc91-d5ff-43a0-8cef-a3306d82d93c"
+  },
+  "activities": {
+    "message": {
+      "type": "message",
+      "description": "Handles general messages"
+    }
+  }
+}
